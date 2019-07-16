@@ -4,7 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-Vue.config.productionTip = false
+import mavonEditor from 'mavon-editor'
+// markdown-it对象：md.s_markdown, md => mavonEditor实例
+//                 or
+//                 mavonEditor.markdownIt
+import 'mavon-editor/dist/css/index.css'
+Vue.use(mavonEditor)
+
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
@@ -12,4 +19,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});

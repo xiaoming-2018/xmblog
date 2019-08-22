@@ -1,0 +1,35 @@
+html{
+
+  height:100%;
+
+  overflow: hidden;
+
+}
+
+.main{
+  .content{
+    .title{
+      .el-form{
+        height: 60px !important;
+        line-height: 60px !important;
+        .el-form-item{
+          height: 60px !important;
+          line-height: 60px !important;
+          margin-bottom: 0;
+          .el-form-item__content{
+            vertical-align: middle !important;
+            margin-top: -3px;
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+.editor{
+  .v-note-wrapper .v-note-panel.shadow{
+    box-shadow: none;
+  }
+}

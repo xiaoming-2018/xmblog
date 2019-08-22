@@ -11,6 +11,7 @@ import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import '@/styles/main.scss'
 Vue.use(mavonEditor);
 Vue.use(ElementUI);
 
